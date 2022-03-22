@@ -1,0 +1,19 @@
+pipeline{
+	agent any
+	stages{
+		stage('Cloning Git'){
+			steps{
+				git 'https://github.com/kara1707/ecommerce'
+			}
+
+	}
+	
+	stage('build'){
+		steps{
+			script{
+			echo("etape du build")
+				}
+			}
+		}
+	}
+}

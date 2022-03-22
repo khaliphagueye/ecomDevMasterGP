@@ -1,0 +1,3 @@
+Aprés une modification taper ces commande pour les sauvegarder sur votre branche 
+git add .
+git commit -m "Modifier par Omar gueye"
