@@ -6,12 +6,12 @@ require_once ("include/initialize.php");
 // }
 
 $content='home.php';
-$vue = (isset($_GET['q']) && $_GET['q'] != '') ? $_GET['q'] : '';
+$view = (isset($_GET['q']) && $_GET['q'] != '') ? $_GET['q'] : '';
 
 
 
 
-switch ($vue) {
+switch ($view) {
  
 
 	case 'product' :
